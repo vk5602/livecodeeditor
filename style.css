@@ -14,10 +14,10 @@ body {
   border-right:1px solid #555;
 }
 .code-area textarea {
-  resize: none;
+  resize:;
   outline: none;
   width: 100%;
-  height: 33.33%;
+  height: 50%;
   font-size: 18px;
   padding: 10px;
 }
