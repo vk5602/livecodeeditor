@@ -1,0 +1,20 @@
+<html>
+  <head><title>Code editor.</title></head>
+<link rel="stylesheet/text" href="style.css"
+<body>
+
+
+<div class="code-area">
+  <textarea id="htmlCode" placeholder="HTML Code" 
+            oninput="showPreview()"></textarea>
+  <textarea id="cssCode" placeholder="CSS Code" 
+            oninput="showPreview()"></textarea>
+  <textarea id="jsCode" placeholder="JavaScript Code" 
+            oninput="showPreview()"></textarea>				
+</div>
+<div class="preview-area">
+  <iframe id="preview-window"></iframe>
+</div>
+<script src="ani.js"></script>
+</body>
+</html>
