@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction:column;
   width: 50%;
+  height: 50%;
   border-right:1px solid #555;
 }
 .code-area textarea {
